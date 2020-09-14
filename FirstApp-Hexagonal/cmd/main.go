@@ -1,7 +1,9 @@
 package main
 
 import (
-	"FirstApp-Hexagonal/pkg/adding"
+	"YouTube-Tutorials/FirstApp-Hexagonal/pkg/adding"
+	"YouTube-Tutorials/FirstApp-Hexagonal/pkg/rest"
+	"YouTube-Tutorials/FirstApp-Hexagonal/pkg/storage"
 	"fmt"
 	"log"
 	"net/http"

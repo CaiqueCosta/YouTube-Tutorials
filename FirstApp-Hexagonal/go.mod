@@ -1,4 +1,4 @@
-module FirstApp-Hexagonal
+module YouTube-Tutorials/FirstApp-Hexagonal
 
 go 1.14
 
