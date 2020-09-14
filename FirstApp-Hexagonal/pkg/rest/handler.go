@@ -1,7 +1,8 @@
 package rest
 
 import (
-	"github.com/CaiqueCosta/YouTube-Tutorials/FirstApp-Hexagonal/FirstApp-Hexagonal/pkg/adding"
+	"FirstApp-Hexagonal/pkg/adding"
+
 	"github.com/go-chi/chi"
 )
 

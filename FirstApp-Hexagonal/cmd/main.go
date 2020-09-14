@@ -1,6 +1,9 @@
 package main
 
 import (
+	"FirstApp-Hexagonal/pkg/adding"
+	"FirstApp-Hexagonal/pkg/rest"
+	"FirstApp-Hexagonal/pkg/storage"
 	"fmt"
 	"log"
 	"net/http"
