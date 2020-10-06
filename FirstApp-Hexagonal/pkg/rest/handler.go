@@ -9,7 +9,8 @@ import (
 func Handler(as adding.Service) *chi.Mux {
 	router := chi.NewRouter()
 
-	router.Get("/api/users", handleAdding(as))
+	router.Post("/api/users", handleAdding(as))
+	router.Get("/api/users", handleReading(as))
 
 	return router
 }
