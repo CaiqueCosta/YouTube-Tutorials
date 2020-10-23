@@ -48,5 +48,6 @@ CREATE TABLE IF NOT EXISTS candies (
 );
 
 INSERT INTO candies (candy_id, category, name, price) VALUES (now(), 'Chocolate', 'KitKat', 1.99);
+INSERT INTO candies (candy_id, category, name, price) VALUES (now(), 'Sour', 'Skittles', 1.89);
 *****************************************************************
 */
