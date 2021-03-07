@@ -16,9 +16,9 @@ func NewService(r Repository) *service {
 	return &service{r}
 }
 
-func (s *service) GetAllCandyNames() ([]string, error){
+func (s *service) GetAllCandyNames() ([]string, error) {
 	cs, err := s.r.GetAllCandyNames()
-	if err != nil{
+	if err != nil {
 		return nil, err
 	}
 	return cs, nil

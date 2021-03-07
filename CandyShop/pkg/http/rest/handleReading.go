@@ -12,7 +12,7 @@ func welcomeHandler() func(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func getAllCandiesHandler(rs reading.Service) func(http.ResponseWriter, *http.Request) {
+func getAllCandiesHandler(rs reading.Service) func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		cs, err := rs.GetAllCandyNames()
 		if err != nil {
