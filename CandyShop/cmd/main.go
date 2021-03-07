@@ -22,3 +22,11 @@ func main() {
 	router := rest.InitHandlers(rs, as)
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
+
+
+/*
+-------GitHub Tag Commands:-------
+git tag v2.0
+git tag
+git push origin v2.0
+*/

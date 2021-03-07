@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS candies (
 candy_id uuid,
 category text,
 name text,
-price float,
+price numeric(18,8),
 PRIMARY KEY (candy_id, category)
 );
 
