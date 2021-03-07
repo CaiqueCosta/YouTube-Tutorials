@@ -1,10 +1,9 @@
 package rest
 
 import (
+	"CandyShop/pkg/reading"
 	"encoding/json"
 	"net/http"
-
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/reading"
 )
 
 func welcomeHandler() func(w http.ResponseWriter, r *http.Request) {

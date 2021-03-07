@@ -1,10 +1,9 @@
-package storage
+package cassandra
 
 import (
-	"log"
-
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/adding"
+	"CandyShop/pkg/adding"
 	"github.com/google/uuid"
+	"log"
 )
 
 func (s *Storage) AddCandy(c adding.Candy) (string, error) {

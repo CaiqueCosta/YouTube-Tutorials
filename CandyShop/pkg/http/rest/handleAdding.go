@@ -1,10 +1,9 @@
 package rest
 
 import (
+	"CandyShop/pkg/adding"
 	"encoding/json"
 	"net/http"
-
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/adding"
 )
 
 func addCandy(as adding.Service) func(w http.ResponseWriter, r *http.Request) {
