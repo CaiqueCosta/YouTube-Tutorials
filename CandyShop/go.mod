@@ -1,9 +1,8 @@
-module HexArch
+module CandyShop
 
 go 1.16
 
 require (
-	github.com/CaiqueCosta/YouTube-Tutorials/CandyShop v0.0.0-20201229045541-fadc5046f0cf
 	github.com/gocql/gocql v0.0.0-20210303083436-2235133ed460
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/google/uuid v1.2.0

@@ -1,8 +1,8 @@
 package rest
 
 import (
-	"HexArch/pkg/adding"
-	"HexArch/pkg/reading"
+	"CandyShop/pkg/adding"
+	"CandyShop/pkg/reading"
 	"github.com/gorilla/mux"
 )
 

@@ -1,7 +1,7 @@
 package rest
 
 import (
-	"HexArch/pkg/reading"
+	"CandyShop/pkg/reading"
 	"encoding/json"
 	"net/http"
 )

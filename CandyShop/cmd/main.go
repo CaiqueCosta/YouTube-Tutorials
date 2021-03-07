@@ -1,10 +1,10 @@
 package main
 
 import (
-	"HexArch/pkg/adding"
-	"HexArch/pkg/http/rest"
-	"HexArch/pkg/reading"
-	"HexArch/pkg/storage/postgresql"
+	"CandyShop/pkg/adding"
+	"CandyShop/pkg/http/rest"
+	"CandyShop/pkg/reading"
+	"CandyShop/pkg/storage/postgresql"
 	"fmt"
 	"log"
 	"net/http"

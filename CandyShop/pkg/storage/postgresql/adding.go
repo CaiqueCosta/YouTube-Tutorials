@@ -1,7 +1,7 @@
 package postgresql
 
 import (
-	"HexArch/pkg/adding"
+	"CandyShop/pkg/adding"
 	"context"
 	"github.com/google/uuid"
 	"log"
