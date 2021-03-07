@@ -1,7 +1,7 @@
 package cassandra
 
 import (
-	"HexArch/pkg/adding"
+	"CandyShop/pkg/adding"
 	"github.com/google/uuid"
 	"log"
 )

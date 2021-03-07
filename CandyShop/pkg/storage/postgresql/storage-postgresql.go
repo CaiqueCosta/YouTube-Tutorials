@@ -12,13 +12,15 @@ type Storage struct {
 }
 
 func SetupStorage() (*Storage, error) {
-	connString :="postgres://marat:12345678@localhost:5432/postgres"
+	connString := "postgres://marat:12345678@localhost:5432/postgres"
 	db, err := pgx.Connect(context.Background(), connString)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Unable to connect to database: %v\n", err)
 		os.Exit(1)
 	}
-	//defer db.Close(context.Background())
+	// It would be idiomatic for GO to close this, but
+	// we need to have db being long-living and reusable.
+	// defer db.Close(context.Background())
 
 	return &Storage{db: db}, nil
 }
