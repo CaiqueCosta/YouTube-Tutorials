@@ -1,10 +1,9 @@
 package rest
 
 import (
+	"HexArch/pkg/reading"
 	"encoding/json"
 	"net/http"
-
-	"github.com/CaiqueCosta/YouTube-Tutorials/CandyShop/pkg/reading"
 )
 
 func welcomeHandler() func(w http.ResponseWriter, r *http.Request) {
@@ -13,7 +12,7 @@ func welcomeHandler() func(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func getAllCandiesHandler(rs reading.Service) func(w http.ResponseWriter, r *http.Request) {
+func getAllCandiesHandler(rs reading.Service) func(http.ResponseWriter, *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		cs, err := rs.GetAllCandyNames()
 		if err != nil {

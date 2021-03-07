@@ -1,10 +1,9 @@
-package storage
+package cassandra
 
 import (
-	"log"
-
 	"HexArch/pkg/adding"
 	"github.com/google/uuid"
+	"log"
 )
 
 func (s *Storage) AddCandy(c adding.Candy) (string, error) {
